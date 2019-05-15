@@ -1,0 +1,11 @@
+{application,computor,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"computor"},
+              {modules,['Elixir.Computor','Elixir.Computor.CLI',
+                        'Elixir.Computor.Display','Elixir.Computor.Error',
+                        'Elixir.Computor.Solver','Elixir.Mix.Tasks.Bla.Run',
+                        'Elixir.Polynom','Elixir.Polynom.Parser',
+                        'Elixir.Polynom.String']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]}]}.
